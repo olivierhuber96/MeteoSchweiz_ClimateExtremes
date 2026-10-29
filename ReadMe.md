@@ -12,7 +12,7 @@ The atmosphere over the North Atlantic and Europe frequently organizes into **7 
 
 This notebook pairs two open datasets to quantify how specific regimes amplify or suppress extreme weather in Switzerland:
 1. **Large-Scale Dynamics:** Dr. Christian Grams' official ERA5 weather regime lifecycle attribution catalogue (Zenodo).
-2. **Local Observations:** MeteoSwiss operational climate station data for Zürich / Fluntern (`SMA`), retrieved via the Federal Open Government Data (OGD) portal.
+2. **Local Observations:** MeteoSwiss operational climate station data for Zürich / Fluntern, retrieved via the Federal Open Government Data (OGD) portal.
 
 ### Core Calculations:
 * **Seasonal Anomalies:** Computes daily maximum temperature anomalies (`t2m_max_anom`) relative to the WMO 1991–2020 standard climatological baseline using `xarray`.
