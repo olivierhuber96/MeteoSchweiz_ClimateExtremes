@@ -6,7 +6,7 @@ This project serves as a technical bridge from experimental physics (`xarray`, a
 
 ---
 
-## 📊 Overview & Methodology
+## Overview & Methodology
 
 The atmosphere over the North Atlantic and Europe frequently organizes into **7 distinct quasi-stationary weather regimes** (categorized into cyclonic and blocked states following the classification by *Grams et al., 2017*). 
 
@@ -20,7 +20,7 @@ This notebook pairs two open datasets to quantify how specific regimes amplify o
 
 ---
 
-## 🔍 Key Physical Findings
+## Key Physical Findings
 
 Running the pipeline reveals distinct physical drivers across seasons:
 * **Winter Warm Spells:** Atlantic Trough (`AT`) and Zonal (`ZO`) regimes pump mild, moist maritime air into Switzerland, driving winter maximum temperature anomalies up to **$+3.4\text{ °C}$** and increasing extreme warm/wet event risk.
@@ -29,7 +29,7 @@ Running the pipeline reveals distinct physical drivers across seasons:
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+## Tech Stack & Requirements
 
 * **Python 3.x**
 * **Core Libraries:** `xarray`, `pandas`, `numpy`, `requests`, `matplotlib`
@@ -38,12 +38,3 @@ Running the pipeline reveals distinct physical drivers across seasons:
   * MeteoSwiss Open Government Data (`ogd-smn` daily time series for Zürich/Fluntern)
 
 ---
-
-## 🚀 Getting Started
-
-Clone the repository and run the Jupyter notebook:
-
-```bash
-git clone [https://github.com/olivier0296/Climate_extremes_MeteoSchweiz.git](https://github.com/olivier0296/Climate_extremes_MeteoSchweiz.git)
-cd Climate_extremes_MeteoSchweiz
-jupyter notebook ClimateExtremes.ipynb
